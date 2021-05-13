@@ -1,5 +1,5 @@
 void main() {
-  print(criarMensagem("soma", somar(2, 2))); 
+  print(criarMensagem("soma", somar(2, 2)));
   print(subtrair(3, 2));
   print(multiplicar(2, 2));
   print(dividir(4, 2));
@@ -27,13 +27,11 @@ String subtrair(int numero1, int numero2) {
 String multiplicar(int numero1, int numero2) {
   int resultado = numero1 * numero2;
   return criarMensagem("multiplicação", resultado);
-//   return "o resultado da multiplicação é " + resultado.toString();
 }
 
 String dividir(int numero1, int numero2) {
   double resultado = numero1 / numero2;
   return criarMensagem("divisão", resultado);
-//   return "o resultado da divisão é " + resultado.toString();
 }
 
 //strings
@@ -68,4 +66,3 @@ List adicionaLista(String a) {
   list.add(a);
   return list;
 }
-
