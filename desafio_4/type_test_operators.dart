@@ -13,6 +13,6 @@ void main() {
 
 // is!
   double num2 = 5.30;
-  var result = num2 is! int;
+  bool result = num2 is! int;
   print(result);
 }

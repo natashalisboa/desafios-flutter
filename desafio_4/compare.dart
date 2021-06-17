@@ -20,8 +20,8 @@ void main() {
   print(d);
 
 // greater than or equal to
-  var num5 = 10;
-  var e = num5 >= 12;
+  int num5 = 10;
+  bool e = num5 >= 12;
   print(e);
 
 // less than or equal to
