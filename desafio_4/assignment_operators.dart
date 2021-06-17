@@ -24,9 +24,4 @@ void main() {
 // resto divisão
   valor %= 2;
   print(valor);
-
-// <<=
-//>>=
-//&=
-//|=
 }
