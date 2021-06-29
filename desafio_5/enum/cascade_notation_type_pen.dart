@@ -1,0 +1,4 @@
+enum TypePen {
+  REDONDO,
+  SEXTAVADO,
+}
